@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slide Show</title>
+    <link rel="stylesheet" type="text/CSS" href="app.css">
+  </head>
+  <body>
+    <section>
+      <div class="controler">
+	<li class="active"><a href="#one"></a></li>
+	<li><a href="#two"></a></li>
+	<li><a href="#three"></a></li>
+	<li><a href="#four"></a></li>
+	<li><a href="#five"></a></li>
+      </div>
+      <div class="images">
+	<li id="one"></li>
+	<li id="two"></li>
+	<li id="three"></li>
+	<li id="four"></li>
+	<li id="five"></li>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflrare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script type="text/javascript">
+      $('a').smoothScroll({
+      speed: 800,
+      });
+      $(".controler li").click(function(){
+      reset();
+      $(this).addClass("active");
+      });
+      function reset(){
+      $(".controler li").removeClass("active");
+      }
+    </script>
+  </body>
+</html>

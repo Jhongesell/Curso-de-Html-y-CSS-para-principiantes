@@ -1,0 +1,12 @@
+<!DOCTYPE Html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Ejemplo de estilos sin CSS</title>
+  </head>
+  <body>
+    <h1><font color="red" face="Arial" size="5">Titular de la página</font></h1>
+    <p><font color="gray" face="Verdana" size="2">Un párrafo de texto no muy largo.</font></p>
+  </body>
+</html>
