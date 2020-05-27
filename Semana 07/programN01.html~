@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Condicionales</title>
+  </head>
+  <body>
+    <script>
+      var nombre = "Carlos",
+      edad = 19;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ProgramN04</title>
+  </head>
+  <body>
+    var arreglo = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+
+    arreglo[5] = "Sábado";
+    arreglo[6] = "Domingo";
+
+    document.write(arreglo)

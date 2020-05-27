@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+  </head>
+  <body>
+    <script>
+      var usuario;
+      usuario = prompt("Ingresa tu nombre de usuario:");
+      anio = prompt("Ingresa el año en que creaste tu cuenta");
+      document.write(usuario + " creo su cuenta en " + anio);
+    </script>
+  </body>
+</html>

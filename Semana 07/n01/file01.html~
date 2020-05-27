@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Variables</titles>
+  </head>
+  <body>
+    <script>
+      var nombre;
+      nombre = prompt("Ingresa tu nombre");
+      edad = prompt("Ingresa la edad");
+      documento.write(nombre + " " + edad);
+      // Esto nos manda una alerta en pantalla
+      // alert(nombre);
+    </script>
+  </body>
+</html>

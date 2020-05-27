@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Arreglos</title>
+  </head>
+  <body>
+    <script>
+      var días = ["lunes", "martes", "miércoles"];
+
+      document.write(días.join(" : ");
+    </script>
+  </body>
+</html>

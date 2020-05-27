@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Condicionales</title>
+  </head>
+  <body>
+    <script>
+      var nombre = "Jimmy",
+      edad = 17;
+
+      if (edad == 18){
+      document.write("Bienvenido, tienes 18");
+      } else if (nombre == "Juan") {
+      document.write("Bienvenido " + nombre);
+      } else {
+      document.write("No tienes 18 años de edad");
+
+    </script>
+  </body>
+</html>

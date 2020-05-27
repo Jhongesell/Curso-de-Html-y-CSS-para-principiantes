@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+  </head>
+  <body>
+    <script>
+      var nombre;
+      prompt("Ingresa tu nombre", "valor");
+      // Esto nos manda una alerta en pantalla
+      // alert(nombre);
+    </script>
+  </body>
+</html>

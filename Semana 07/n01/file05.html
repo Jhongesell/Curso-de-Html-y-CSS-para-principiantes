@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Arreglos</title>
+  </head>
+  <body>
+    <script>
+      var días = ["lunes", "martes", "miércoles"];
+      // document.write("Son " + días.length + " días que estas ocupado");
+      días[días.length] = "jueves";
+      días[días.length] = "viernes";
+
+      días.push("sábado", "domingo");
+
+      document.write(días[0]);
+      document.write(días[1]);
+      document.write(días[2]);
+      document.write(días[3]);
+      document.write(días[4]);
+      document.write(días[5]);
+      document.write(días[6]);
+      document.write(días[7]);
+
+      // *******************
+
+      días.pop();
+      document.write(días[5]);
+
+      // ******************)
+
+      var meses = ["Enero", "Febrero", "Marzo", "Abril"];
+
+      var tiempos = días.concat(meses);
+      document.write(tiempos);
+    </script>
+  </body>
+</html>

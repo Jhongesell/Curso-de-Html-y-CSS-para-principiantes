@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+  </head>
+  <body>
+    <script>
+      var nombre;
+      nombre = promt("Ingresa tu nombre");
+      console.log(nombre);
+    </script>
+  </body>
+</html>
