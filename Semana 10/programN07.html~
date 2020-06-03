@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PROGRAM N01</title>
+  </head>
+  <body>
+    <MARQUEE BGCOLOR="#FF7070">Mi texto 06</MARQUEE>
+    <MARQUEE BEHAVIOR=ALTERNATE>Mi texto 05</MARQUEE>
+    <MARQUEE DIRECTION=RIGHT>Mi texto 07</MARQUEE>
+  </body>
+</html>

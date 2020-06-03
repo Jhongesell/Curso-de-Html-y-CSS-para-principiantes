@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PROGRAM N01</title>
+  </head>
+  <body>
+    <MARQUEE SCROLLAMOUNT=20>Mi texto 08</MARQUEE>
+  </body>
+</html>
