@@ -1,0 +1,32 @@
+/** olas **/
+.waves {
+    display: flex;
+    justify-content: center;
+}
+.waves__individual {
+    margin: -4px -5px;
+    width: 60px;
+    height: 30px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: $wavesColor;
+
+    animation-duration:3s;
+    animation-name: movewaves;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/** animaciones **/
+
+@keyframes movewaves {
+    from{
+        transform: rotate(15deg);
+        margin: -4px -7px;
+    } 
+    to {
+        transform: rotate(0deg);
+        margin: -4px -5px;
+    }
+}

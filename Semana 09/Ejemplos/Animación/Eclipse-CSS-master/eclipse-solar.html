@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Eclipse Solar</title>
+	<style type="text/css">
+		body{
+			background: #39dee9;
+			margin: 0;
+			padding: 0;
+		}
+		.contenedor-sol-luna{
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			animation-name: cielo-oscuro;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		.sol{
+			background: #ffed00;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			border-radius: 50%;
+			box-shadow: 0px 0px 80px 5px rgba(255, 204, 44, 0.9);
+			animation-name: sol-resplandor;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		.luna{
+			background: #0d0c0c;
+			width: 197px;
+			height: 197px;
+			position: absolute;
+			border-radius: 50%;
+			animation-name: luna-dark;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+
+		.nube{
+			width: 150px;
+			height: 75px;
+			border-radius: 50px;
+			background: white;
+			position: absolute;
+			animation-name: nube-mueve, nube-oscurese;
+			animation-duration: 10s, 20s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		.nube:before{
+			content: "";
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			position: absolute;
+			background: white;
+			left: 10%;
+			top:-40%;
+			animation-name: nube-oscurese;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+		.nube:after{
+			content: "";
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			position: absolute;
+			background: white;
+			left: 55%;
+			top:-20%;
+			animation-name: nube-oscurese;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+		}
+
+		.nube.a{
+			left: 20%;
+			top: 10%;
+		}
+		.nube.b{
+			left: 75%;
+			top: 25%;
+		}
+		.nube.c{
+			left: 15%;
+			top: 60%;
+		}
+		.nube.d{
+			left: 70%;
+			top: calc(90% - 100px);
+		}
+		@keyframes luna-dark{
+			0%{
+				left: 0;
+				background: #39dee9;
+			}
+			20%, 35%{
+				background: #39dee9;
+			}
+
+			45%, 55%{
+				left: calc(50% - 98.5px);
+				background: rgba(0, 0, 0, 1);
+			}
+
+			65%, 80%{
+				background: #39dee9;
+			}
+
+			100%{
+				left: calc(100% - 197px);
+				background: #39dee9;
+			}
+		}
+		@keyframes cielo-oscuro{
+			0%{
+				background: #39dee9;
+			}
+			20%, 35%{
+				background: #39dee9;
+			}
+			45%, 55%{
+				background: black;
+			}
+
+			65%, 80%{
+				background: #39dee9;
+			}
+
+			100%{
+				background: #39dee9;
+			}
+		}
+		@keyframes sol-resplandor{
+			0%{
+				box-shadow: 0px 0px 80px 5px rgba(255, 204, 44, 0.9);
+			}
+			20%, 35%{
+				box-shadow: 0px 0px 80px 5px rgba(255, 204, 44, 0.9);
+			}
+			45%, 55%{
+				box-shadow: 0px 0px 100px 10px rgba(181, 47, 40, 1);
+			}
+
+			65%, 80%{
+				box-shadow: 0px 0px 80px 5px rgba(255, 204, 44, 0.9);
+			}
+
+			100%{
+				box-shadow: 0px 0px 80px 5px rgba(255, 204, 44, 0.9);
+			}
+		}
+		@keyframes nube-mueve{
+			0%{
+				transform: translateX(0);
+			}
+			100%{
+				transform: translateX(100px);
+			}
+		}
+		@keyframes nube-oscurese{
+			0%,35%{
+				background: white;
+			}
+			45%, 55%{
+				background: #4a4747;
+			}
+			65%,100%{
+				background: white;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="contenedor-sol-luna">
+		<div class="sol"></div>
+		<div class="luna"></div>
+		<div class="nube a"></div>
+		<div class="nube b"></div>
+		<div class="nube c"></div>
+		<div class="nube d"></div>
+	</div>
+</body>
+</html>

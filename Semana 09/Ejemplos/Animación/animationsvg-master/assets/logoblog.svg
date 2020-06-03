@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="80"
+   viewBox="0 0 296.99998 210.00001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="logoblog.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6039"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#111133;stop-opacity:1;"
+         offset="0"
+         id="stop6037" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="106.54723"
+     inkscape:cy="4.3829764"
+     inkscape:document-units="px"
+     inkscape:current-layer="layerx"
+     showgrid="true"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid10" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     type="text/css"
+     id="style2139">
+  
+#layer4 {
+    display: inline;
+}
+
+#colorcentro {
+    fill: #f1f1f1;
+    fill-opacity: 0;
+    stroke-width: 2.02030516;
+    animation-name: colors;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+#colormas {
+    fill: #f1f1f1;
+    fill-opacity: 0;
+    stroke-width: 2.02030516;
+    animation-name: colors;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+#colormenor {
+    fill: #f1f1f1;
+    fill-opacity: 0;
+    stroke-width: 2.02030516;
+    animation-name: colors;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+@keyframes colors {
+    from {
+        fill-opacity: 0;
+    }
+    to {
+        fill-opacity: 1;
+    }
+}
+
+.palo {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+    animation-name: load;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes load {
+    from {
+        stroke-dashoffset: 100;
+        stroke-dasharray: 100;
+        stroke-width: 0.26458332px;
+    }
+    to {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 100;
+        stroke-width: 0.26458332px;
+    }
+}
+
+.movema2 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation-name: menorque;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.movema {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation-name: mayorque;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+@keyframes menorque {
+    from {
+        stroke-dashoffset: 500;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes mayorque {
+    from {
+        stroke-dashoffset: 500;
+    }
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
+#cuadrox{
+opacity:1;
+fill:#111133;&quot;;
+fill-opacity:1;
+fill-rule:nonzero;
+stroke-width:29.70000076;
+stroke-miterlimit:4;
+stroke-dasharray:none;
+animation-name: cuadro;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+#cuadroxx{
+opacity:1;
+fill:#000;
+fill-opacity:0;
+fill-rule:nonzero;
+stroke-width:29.70000076;
+stroke-miterlimit:4;
+stroke-dasharray:none;
+animation-name: cuadro, cursor;
+    animation-timing-function: linear;
+    animation-duration: 4s, 300ms;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-delay: 4s,0s;
+}
+
+
+@keyframes cuadro {
+    from {
+        x: 50;
+    }
+    to {
+        x: 320;
+    }
+}
+@keyframes cursor {
+    from {
+        fill-opacity:1;
+        fill:#000;
+    }
+    to {
+        fill-opacity:1;
+        fill:#fff;
+    }
+}
+.cursor{
+fill:#000;
+stroke:#000000;
+stroke-width:0.59399998px;
+stroke-linecap:butt;
+stroke-linejoin:miter;
+stroke-opacity:1;
+
+}
+  
+  </style>
+  <g
+     inkscape:label="menor"
+     inkscape:groupmode="layer"
+     id="menor"
+     class="movema2"
+     transform="translate(0,-86.999992)">
+    <path
+       d="m 146.04742,101.18259 c -66.698166,59.28726 -66.698166,59.28726 -66.698166,59.28726 l 66.698166,59.28726 V 212.3462 L 86.760161,160.46985 146.04742,108.5935 Z"
+       id="path12"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="g17"
+     class="movema"
+     inkscape:groupmode="layer"
+     inkscape:label="mayor"
+     transform="translate(0,-86.999992)">
+    <path
+       inkscape:connector-curvature="0"
+       id="mayor"
+       d="m 146.04743,153.05895 c 66.69816,59.28725 66.69816,59.28725 66.69816,59.28725 l -66.69816,59.28727 v -7.41091 l 59.28725,-51.87636 -59.28725,-51.87635 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="palo"
+     class="palo"
+     transform="translate(0,-86.999992)">
+    <path
+       d="m 146.04742,175.29166 c -7.41091,22.23273 -7.41091,22.23273 -7.41091,22.23273 0,0 0,0 0,0 h 7.41091 l 7.41091,-22.23273 z"
+       id="palo"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="colorme"
+     style="display:inline"
+     transform="translate(0,-86.999992)">
+    <path
+       d="M 112.86801,189.91154 C 94.997109,174.03614 80.23686,160.91936 80.067451,160.76315 79.898042,160.60693 94.131078,147.71617 111.69642,132.117 c 17.56534,-15.59917 32.40019,-28.79027 32.96633,-29.31358 l 1.02935,-0.95145 v 3.3469 3.34691 l -29.47671,25.78156 c -16.21218,14.17986 -29.524176,25.90167 -29.582204,26.04846 -0.05803,0.14679 13.20649,11.91625 29.476704,26.15435 l 29.58221,25.88745 v 3.17916 c 0,1.74854 -0.0746,3.17916 -0.16578,3.17916 -0.0912,0 -14.78742,-12.98897 -32.65831,-28.86438 z"
+       id="colormenor"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 146.44071,267.57132 v -3.32043 l 29.47671,-25.78157 c 16.21218,-14.17986 29.52179,-25.89451 29.57691,-26.03256 0.0768,-0.19245 -56.01566,-49.58531 -58.53507,-51.54369 -0.42407,-0.32964 -0.52416,-1.16951 -0.44015,-3.69321 l 0.10876,-3.26654 32.75189,29.1008 c 18.01354,16.00543 32.79896,29.14018 32.85649,29.18832 0.0575,0.0481 -14.09051,12.7014 -31.4401,28.11836 -17.34958,15.41696 -32.17711,28.59786 -32.95007,29.29089 l -1.40537,1.26006 z"
+       id="colormas"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 139.04093,196.98716 c 0.0977,-0.26539 1.73247,-5.15669 3.63274,-10.86956 l 3.45504,-10.38703 h 3.33761 c 1.83569,0 3.33762,0.1286 3.33762,0.28578 0,0.15718 -1.57206,4.99978 -3.49346,10.76134 l -3.49347,10.47555 -3.47689,0.10823 c -2.71411,0.0845 -3.43791,0.002 -3.29919,-0.37431 z"
+       id="colorcentro"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="text"
+     transform="translate(0,-86.999992)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.41090727px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.18527268"
+       x="13.340789"
+       y="292.21426"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="13.340789"
+         y="293"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';fill:#ffffff;stroke-width:0.18527268">&lt; un programador /&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layerx"
+     inkscape:label="cuadro"
+     transform="translate(0,-86.999992)"
+     style="display:inline">
+    <rect
+       id="cuadrox"
+       width="300"
+       height="25"
+       x="16.624989"
+       y="272"
+       style="opacity:1;fill-opacity:1;fill-rule:nonzero;stroke-width:20.79722404;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       id="cuadroxx"
+       width="2"
+       height="25"
+       x="50"
+       y="271.86688"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:20.79722404;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

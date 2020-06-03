@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f0f2f1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_card{
+    margin: 20px;
+}
+
+.container_card a{
+    display: inline-block;
+}
+
+.container_card:hover figure{
+    -webkit-transform: perspective(600px) rotateY(180deg);
+    -ms-transform: perspective(600px) rotateY(180deg);
+    -o-transform: perspective(600px) rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
+
+
+    -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+    box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+}
+
+figure{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+figure .front,
+figure .back{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all ease .5s;
+}
+
+figure .front{
+    display: block;
+}
+
+figure .back{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    color: #fff;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+}
+
+
+.container_card:nth-child(1) figure .back{
+    background: rgba(200,104,55,0.4);
+    background: -moz-linear-gradient(top, rgba(200,104,55,0.4) 0%, rgba(56,33,15,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(200,104,55,0.4)), color-stop(100%, rgba(56,33,15,1)));
+    background: -webkit-linear-gradient(top, rgba(200,104,55,0.4) 0%, rgba(56,33,15,1) 100%);
+    background: -o-linear-gradient(top, rgba(200,104,55,0.4) 0%, rgba(56,33,15,1) 100%);
+    background: -ms-linear-gradient(top, rgba(200,104,55,0.4) 0%, rgba(56,33,15,1) 100%);
+    background: linear-gradient(to bottom, rgba(200,104,55,0.4) 0%, rgba(56,33,15,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c86837', endColorstr='#38210f', GradientType=0 );
+
+}
+
+.container_card:nth-child(2) figure .back{
+    background: rgba(215,192,89,0.4);
+    background: -moz-linear-gradient(top, rgba(215,192,89,0.4) 0%, rgba(28,58,14,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(215,192,89,0.4)), color-stop(100%, rgba(28,58,14,1)));
+    background: -webkit-linear-gradient(top, rgba(215,192,89,0.4) 0%, rgba(28,58,14,1) 100%);
+    background: -o-linear-gradient(top, rgba(215,192,89,0.4) 0%, rgba(28,58,14,1) 100%);
+    background: -ms-linear-gradient(top, rgba(215,192,89,0.4) 0%, rgba(28,58,14,1) 100%);
+    background: linear-gradient(to bottom, rgba(215,192,89,0.4) 0%, rgba(28,58,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7c059', endColorstr='#1c3a0e', GradientType=0 );
+}
+
+.container_card:nth-child(3) figure .back{
+    background: rgba(204,187,119,0.4);
+    background: -moz-linear-gradient(top, rgba(204,187,119,0.4) 0%, rgba(180,100,23,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(204,187,119,0.4)), color-stop(100%, rgba(180,100,23,1)));
+    background: -webkit-linear-gradient(top, rgba(204,187,119,0.4) 0%, rgba(180,100,23,1) 100%);
+    background: -o-linear-gradient(top, rgba(204,187,119,0.4) 0%, rgba(180,100,23,1) 100%);
+    background: -ms-linear-gradient(top, rgba(204,187,119,0.4) 0%, rgba(180,100,23,1) 100%);
+    background: linear-gradient(to bottom, rgba(204,187,119,0.4) 0%, rgba(180,100,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccbb77', endColorstr='#b46417', GradientType=0 );
+}
+
+
+figure .back .titulo{
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 24px;
+}
+
+figure .back hr{
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+figure .back p{
+    font-family: 'Open Sans', sans-serif;
+    line-height-step: 22px;
+    font-size: 14;
+}
+

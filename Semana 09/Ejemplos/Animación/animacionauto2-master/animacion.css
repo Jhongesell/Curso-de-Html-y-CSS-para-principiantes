@@ -1,0 +1,112 @@
+
+ html,body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.fondo{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ background: skyblue;
+ width: 100%;
+ height: 100%;
+ animation-name: fondo; 
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+
+
+
+
+}
+.sol {
+ background: rgb(233, 180, 8);
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ left: -110px;
+ top: 30%;
+ border-radius: 100px;
+ box-shadow: 0px 0px 0px 10px rgba(255, 140, 0, 0.5);
+ animation-name:sol;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+
+
+}
+@keyframes sol {
+ 0% {left: -110px; top:30%;
+
+ }
+ 50% {left: 50%; top: 5%; background: #ff4500;}
+ 100% { left: calc(100%+10px); top:30%;background:#bee2e6; box-shadow: 0px 0px 0px 10px rgba(73, 92, 95, 0.5);}
+}
+@keyframes fondo {
+ 50% {background: #a3d6db}
+ 100% {background:blue}
+
+}
+.nubes{
+ background-image: url(fondo1.png);
+ background-repeat: repeat-x;
+ position: absolute;
+ top:0px;
+ left:0px;
+ width: 100%;
+ height: 174px;
+ animation-name:nubes;
+ animation-duration:10s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+
+
+}
+@keyframes nubes {
+    from {background-position:100% 0; }
+    to {background-position:100% 0;}
+}
+.ciudad{
+   background-image: url(ciudad.png);
+   background-repeat: repeat-x;
+   background-position: 0px 100%;
+   background-position: 0px 100%;
+   position: absolute;
+   top: 10%;
+   left: 0px;
+   width: 100%;
+   height: 90%;
+   animation-name:ciudad;
+   animation-duration: 30s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+
+} 
+@keyframes ciudad {
+from {background-position:0 100%;}
+to {background-position: 100% 100%;}
+}
+
+.auto { 
+    background-image: url(auto2.png);
+        width: 200px;
+         height: 100px;
+position: absolute;
+bottom:10%;
+left:50%;
+text-align: center;
+z-index: 2;
+}
+
+
+input [type= radio] {position: relative; z-index: 100;}
+.button {
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    background: #1f1f1f; 
+    display: inline-block;
+    padding: 12px 15 px;
+    
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Neopxl-Demo Scroll con animaciones</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body class="loading">  
+       	<div class="main">
+	        <section id="fadeInAnim">
+	        	<div class="section-content">
+		    		<img src="img/blurry.jpg" alt="Responsive Website" />
+	        	</div>
+		    </section>
+		    <section id="revealAnim">
+		    	<div class="section-content">
+		    		<div class="copy-container">
+			    		<h2>Con el Poder de CSS, HTML5 y Javascript</h2>
+		    		</div>
+		    		<div class="images-container">
+			    		<img class="front" src="img/html5.jpg" alt="html5 logo" />
+			    		<img class="back" src="img/css3.jpg" alt="css3 logo" />
+			    		<img class="side" src="img/javascript.jpg" alt="javascript logo" />
+		    		</div>
+	        	</div>
+		    </section>
+		    <section id="betweenSlidesAnimEnd">
+		    	<div class="fake-content">
+		    		<div class="images-container">
+		    			<img class="" src="img/usabilidad-corazon.png" alt="love web" />
+		    		</div>
+	        	</div>
+		    	  <div class="section-content2">
+                      <div class="copy-container2">
+			    		<h2>Para darle vida a tus contenidos!</h2>
+		    		</div>
+		    		<div class="images-container">
+		    			<img class="front2" src="img/hands.png" alt="hand" />
+		    		</div>
+	        	</div>
+		    </section>
+		    
+		</div>
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/onepagescroll/jquery.onepage-scroll.js"></script>
+		<link href='js/onepagescroll/onepage-scroll.css' rel='stylesheet' type='text/css'>
+		 <script type="text/javascript">
+		
+$(document).ready(function(){
+
+	$(".main").onepage_scroll({
+	   sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
+	   easing: "ease", // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+	   animationTime: 900, // AnimationTime let you define how long each section takes to animate
+	   pagination: true, // You can either show or hide the pagination. Toggle true for show, false for hide.
+	   updateURL: false // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+	});
+	
+});
+
+function init() {
+	
+	// start up after 2sec no matter what
+    window.setTimeout(function(){
+        start();
+    }, 2000);
+}
+
+// fade in experience
+function start() {
+	
+	$('body').removeClass("loading").addClass('loaded');
+	
+}
+
+$(window).load(function() {
+	
+	// fade in page
+	init();
+	
+});
+
+		
+		
+		
+		
+		</script>
+        
+    </body>
+</html>

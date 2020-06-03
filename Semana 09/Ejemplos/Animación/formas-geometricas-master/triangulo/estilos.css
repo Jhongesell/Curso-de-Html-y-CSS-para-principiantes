@@ -1,0 +1,13 @@
+#triangulo {
+margin-left:25%;
+width: 0px;
+height:0px;
+border: 2px solid #000;
+border-top:80px solid transparent;
+border-right:400px solid transparent;
+border-bottom:400px solid green;
+border-left:400px solid transparent;
+}
+h1 {
+text-align:center;
+}

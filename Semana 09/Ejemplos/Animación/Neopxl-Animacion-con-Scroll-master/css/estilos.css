@@ -1,0 +1,276 @@
+
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: Arial,sans-serif;
+}
+
+
+body, html {
+	height: 100%;
+	min-height: 100%;
+}
+.loading {
+	background: url('../img/ico_loading.gif') no-repeat center center;
+}
+
+.onepage-wrapper  {
+width: 100%;
+height: 550px !important;
+}
+
+section {
+	min-width: 960px;
+	opacity: 0;
+	-webkit-transition:opacity .6s;
+	-moz-transition:opacity .6s;
+	-o-transition:opacity .6s;
+	transition: opacity .6s;
+}
+.loaded section {
+	opacity: 1;
+}
+section h2 {
+font-size: 52px;
+font-weight: bold;
+color: #06BE9F;
+margin: 0;
+padding: 0;
+line-height: 1em;
+}
+section p {
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-size: 1.1875em;
+	line-height: 1.6316;
+	color: #808080;
+}
+.section-content {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: -33px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.fake-content {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.copy-container {
+   position: absolute;
+   top: 30px;
+   left: 12%;
+   margin-left: 8px;
+   width: 100%;
+   z-index: 10;
+}
+
+.copy-container2 {
+   position: absolute;
+   top: 147px;
+   left: 18%;
+   margin-left: 8px;
+   width: 33%;
+   z-index: 20;
+    -webkit-transition: -webkit-transform .6s .9s;
+   -moz-transition: -moz-transform .6s .9s;
+    transition: transform .6s .9s;
+
+}
+   
+
+.copy-container2 {
+    -webkit-transform:translate3d(-40%, 0, 0);
+		   -moz-transform:translate3d(-40%, 0, 0);
+		        transform:translate3d(-40%, 0, 0);
+}
+    
+
+.images-container {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 59%;
+  /* width: 1106px; */
+  height: 600px;
+}
+
+/* Fade in animation - Slide 1 */
+#fadeInAnim {
+	background-color: #FFF;
+	overflow: hidden;
+}
+	#fadeInAnim .copy-container {
+		margin-top: -100px;
+		margin-left: 200px;
+		width: 300px;
+	}
+	#fadeInAnim img {
+position: absolute;
+width: 100%;
+	}
+	.fadeIn {
+		
+	}
+
+/* Reveal animation - Slide 2 */
+
+	#revealAnim .images-container {
+		margin-top: -210px;
+		margin-left: -677px;
+	}
+	#revealAnim .images-container img {
+		float: left;
+		position: relative;
+		z-index: 1;
+		-webkit-transition: -webkit-transform .6s .9s;
+		-moz-transition: -moz-transform .6s .9s;
+		transition: transform .6s .9s;
+	}
+	#revealAnim .images-container .back { z-index:2;
+		-webkit-transform:translate3d(-40%, 0, 0);
+		   -moz-transform:translate3d(-40%, 0, 0);
+		        transform:translate3d(-40%, 0, 0);
+	}
+	#revealAnim .images-container .front {
+		-webkit-transform:translate3d(61.6%, 0, 0);
+		   -moz-transform:translate3d(61.6%, 0, 0);
+		        transform:translate3d(61.6%, 0, 0);
+	}
+	#revealAnim .images-container .side {
+		-webkit-transform:translate3d(-148%, 0, 0);
+		   -moz-transform:translate3d(-148%, 0, 0);
+		        transform:translate3d(-148%, 0, 0);
+	}
+	.viewing-page-2 #revealAnim .images-container img {
+		-webkit-transform: translate3d(0, 0, 0) !important;
+		-moz-transform: translate3d(0, 0, 0) !important;
+		transform: translate3d(0, 0, 0) !important;
+	}
+
+/* Between Slides Animation - Slide 3-4 */
+#betweenSlidesAnimStart {
+	
+}
+	#betweenSlidesAnimStart .copy-container {
+		width: 430px;
+		margin-left: -40px;
+		margin-top: -220px;
+	}
+	#betweenSlidesAnimStart .images-container {
+		margin-top: -245px;
+		margin-left: -658px;
+		width: 1140px;
+	}
+	#betweenSlidesAnimStart .images-container img,
+	#betweenSlidesAnimEnd .images-container img {
+		float: left;
+		position: relative;
+		z-index: 1;
+		-webkit-transition: -webkit-transform .9s 0;
+		-moz-transition: -moz-transform .9s 0;
+		transition: transform .9s 0;
+	}
+	#betweenSlidesAnimStart .pink {
+		-webkit-transform: translate3d(0, 460px, 0);
+		-moz-transform: translate3d(0, 460px, 0);
+		transform: translate3d(0, 460px, 0);
+	}
+	#betweenSlidesAnimStart .yellow {
+		-webkit-transform: translate3d(0, 260px, 0);
+		-moz-transform: translate3d(0, 260px, 0);
+		transform: translate3d(0, 260px, 0);
+	}
+	#betweenSlidesAnimStart .blue {
+		margin-top: 30px;
+		-webkit-transform: translate3d(0, 200px, 0);
+		-moz-transform: translate3d(0, 200px, 0);
+		transform: translate3d(0, 200px, 0);
+	}
+	.viewing-page-3 #betweenSlidesAnimStart .pink {
+		-webkit-transform: translate3d(0, -160px, 0) !important;
+		-moz-transform: translate3d(0, -160px, 0) !important;
+		transform: translate3d(0, -160px, 0) !important;
+	}
+	.viewing-page-3 #betweenSlidesAnimStart .yellow {
+		-webkit-transform: translate3d(0, 0, 0) !important;
+		-moz-transform: translate3d(0, 0, 0) !important;
+		transform: translate3d(0, 0, 0) !important;
+	}
+	.viewing-page-3 #betweenSlidesAnimEnd .copy-container {
+		opacity: 0;
+		-webkit-transition:opacity .3s;
+		-moz-transition:opacity .3s;
+		-o-transition:opacity .3s;
+		transition: opacity .3s;
+		-webkit-transition-delay:.0s;
+		-moz-transition-delay:.0s;
+		-o-transition-delay:.0s;
+		transition-delay:.0s;
+	}
+
+#betweenSlidesAnimEnd .images-container {
+	
+	margin-top: -10px;
+	margin-left: -96px;
+}
+	#betweenSlidesAnimEnd .copy-container {
+		width: 76%;
+		text-align: center;
+		opacity: 0;
+		-webkit-transition:opacity .6s;
+		-webkit-transition-delay:.8s;
+		-moz-transition:opacity .6s;
+		-moz-transition-delay:.8s;
+		-o-transition:opacity .6s;
+		-o-transition-delay:.8s;
+		transition: opacity .6s;
+		transition-delay:.8s;
+	}
+	#betweenSlidesAnimEnd .fake-content .images-container {
+margin-top: 234px;
+margin-left: -280px;
+	}
+	.fake-content {
+		-webkit-transition: -webkit-transform .9s 0;
+		-moz-transition: -moz-transform .9s 0;
+		transition: transform .9s 0;
+	}
+	.viewing-page-3 .fake-content {
+		-webkit-transform: translate3d(0, -100%, 0) !important;
+		-moz-transform: translate3d(0, -100%, 0) !important;
+		transform: translate3d(0, -100%, 0) !important;
+	}
+	.viewing-page-3 .fake-content .green {
+		-webkit-transform: translate3d(0, 160px, 0) !important;
+		-moz-transform: translate3d(0, 160px, 0) !important;
+		transform: translate3d(0, 160px, 0) !important;	
+	}
+	.viewing-page-4 .fake-content,
+	.viewing-page-4 .fake-content .green {
+		-webkit-transform: translate3d(0, 0, 0) !important;
+		-moz-transform: translate3d(0, 0, 0) !important;
+		transform: translate3d(0, 0, 0) !important;
+	}
+
+	.viewing-page-4 #betweenSlidesAnimStart .pink,
+	.viewing-page-4 #betweenSlidesAnimStart .yellow {
+		-webkit-transform: translate3d(0, -160px, 0) !important;
+		-moz-transform: translate3d(0, -160px, 0) !important;
+		transform: translate3d(0, -160px, 0) !important;
+	}
+	.viewing-page-4 #betweenSlidesAnimEnd .copy-container {
+		opacity: 1;
+	}
+

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    text-shadow: rebeccapurple 3px 0 3px;
+    font-size: 60px;
+}
+
+.corazon{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 200px auto;
+    position: relative;
+    border-radius: 5px;
+    animation: palpitar 2s linear infinite alternate;
+    will-change: transform;
+}
+
+.corazon::before, .corazon::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.corazon::before{
+    top: 0%;
+    left: -50%;
+}
+
+.corazon::after{
+    top: -50%;
+    left: 0;
+}
+
+@keyframes palpitar{
+    0%{
+        transform: rotate(45deg) scale(1);
+    }
+    50%{
+        transform: rotate(45deg) scale(1.5);
+    }
+    100%{
+        transform: rotate(45deg) scale(1);
+    }
+}
