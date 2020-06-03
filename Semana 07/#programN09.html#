@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ciclos</title>
+  </head>
+  <body>
+    <script>
+
+      var meses = ["Enero", "Febrero", "Marzo"];
+      
+      for(i = 0; i <= meses.length; i++){
+		      document.write(dias[i] + "<br>");
+		      }
+    </script>
+  </body>
+</html>
