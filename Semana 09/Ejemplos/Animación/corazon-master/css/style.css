@@ -6,8 +6,8 @@
 
 h1{
     text-align: center;
-    margin-top: 20px;
-    color: red;
+    margin-top: 50px;
+    color: blue;
     text-shadow: rebeccapurple 3px 0 3px;
     font-size: 60px;
 }
@@ -20,9 +20,10 @@ h1{
     margin: 200px auto;
     position: relative;
     border-radius: 5px;
-    animation: palpitar 2s linear infinite alternate;
+    animation: palpitar 10s linear infinite alternate;
     will-change: transform;
 }
+
 
 .corazon::before, .corazon::after{
     content: "";
@@ -49,7 +50,7 @@ h1{
         transform: rotate(45deg) scale(1);
     }
     50%{
-        transform: rotate(45deg) scale(1.5);
+        transform: rotate(45deg) scale(2);
     }
     100%{
         transform: rotate(45deg) scale(1);

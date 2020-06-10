@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+      width: 150px;
+      height: 150px;
+      background-color: green;
+      animation-name: ejemplo;
+      animation-duration:5s;
+      }
+
+      @keyframes ejemplo {
+      from {background-color: red;}
+      to {background-color:yellow;}
+      }
+
+      @keyframes typewriter{
+      from{width: 0;}
+      to{width: 24em;}
+
+      @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255, 255, 255, .75);}
+      to{border-right-color: transparent;}
+    </style>
+  </head>
+  <body>
+    <p class="line-1 anim-typewriter">Test</p>
+    <p><b>Nota 01:</b> Este es mi ejemplo en mi navegador Firefox.</p>
+    <div></div>
+
+  </body>
+</html>
