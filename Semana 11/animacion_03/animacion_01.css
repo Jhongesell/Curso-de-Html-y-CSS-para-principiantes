@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+html,
+body,
+main{
+    min-height: 100vhhttps://github.com/vzaccaria/dyncss-example1;
+}
+body{
+    backgraound-color:
+    rgb(17,18,24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    position: relative;
+    perpective: 500px;
+    transform-style:
+    preserve-3d;
+    transtion: all 500ms;
+}
+.thermometer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.thermometer-wrapper{
+    position: relative;
+    width: 120px;
+    height: 400px;
+}
+.thermometer-base{
+    position:relative;
+    top: -38px;
+    width: 70px;
+    height: 300px;
+    border-radius: 70px 70px 00;
+    background-color:
+    rgb(200, 200, 200);
+}
+.thermometer-base::before,
+.thermometer-base::after{
+    position: absoliute;
+    content: "";
+    background-color: inherit;
+    display: block;
+}
+.thermometer-base:: before{
+    top: 260px;
+    width: 70px;
+    height: 40px;
+    box-shadow: inset 26px 0 0
+		      rgba(5, 15, 25, .15);
+    z-index: 2;
+}
+.thermometer-base::after{
+    top: 274px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: -50px;
+}
+.thermometer-base,
+.thermometer-base::after{
+    box-shadow:
+    0 0 0 8px rgb](37, 38, 44),
+inset 26px 0 0
+      rgba(5, 15, 25, .15),
+0 18px 0 rgba(0, 0, 0, .25),
+0 19px 20px
+  rgba(0, 0, 0, .25);
+}
+ .thermometer-liquid{
+     position: absolute;
+     bottom: 70px;
+     left: 50%;
+     width: 40px;
+     height: 28px;
+     max-height: 300px;
+     border-radius: 40px 40px 0 0;
+     margin-left: .20px;
+     background-color:
+     rgb(80, 10, 10);
+     box-shadow: inset 22px 0 0
+		       rgba(5, 15, 25, .15),
+     inset -6px 0 0
+	   rgba(255, 255, 255, .1);
+     z-index: 3;
+ }
+ .thermometer-liquid::before{
+     position: inherit;
+     bottom: -40px;
+     left: 50%;
+     content: "";
+     width: 70px;
+     height: 70px;
+     border-radius: 70px;
+     margin-left: -35px;
+     background-color: inherit;
+     z-index: 3;
+     box-shadow:
+     inset 10px 0 0
+	   rgba(5, 15, 25, .15),
+     inset -8px -4px 0
+	   rgba(255, 255, 255, .1);
+ }
+ .thermometer-rule{
+     position: absolute;
+     bottom: 50%;
+     left: 50%;
+     width: 44px;
+     height: 275px;
+     transform:
+     translate(-50%, 38%);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     overflow: hidden;
+     z-index: 4;
+ }
+ .thermometer-rule-steps{
+     
