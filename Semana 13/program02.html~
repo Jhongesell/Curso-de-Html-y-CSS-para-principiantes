@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Dean">+
+    <title>Job Application</title>
+    <script>
+      // Evaluate user's job skills and generate hiring plan.
+      function checkInput(form) {
+      var message; // hiring plan after examining job skills
+      var i = 0;
+      if (form.checkValidity()) {
+      message ="You're hired! We need a website overhaul." +
+      " Have it done by Saturday midnight. We go live on Sunday.";
+      }
+      else {message = "Sorry we can't hire you." +
+      " You are deficient in these areas:";
+      jobSkillsCBs = form.elements["jobSkills"];
+      while (i < jobSkillsCBs.length) {
+		 if (!jobSkillsCBs[i].checkValidity()) {
+		 message += "<br>" + jobSkillsCBs[i].value;
+		 }
+		 i++;
+		 } // end while
+		 } // end if
+      document.getElementById("message").innerHTML = message;
+} // end checkInput
+</script>
+</head>
