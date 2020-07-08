@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PROGRAM N01</title>
+  </head>
+  <body>
+    <FONT FACE="Impact">
+      <MARQUEE BGCOLOR="#FFFF00">Mi texto 10</MARQUEE>
+    </FONT>
+  </body>
+</html>

@@ -7,8 +7,8 @@
 }
 
 body{
-    background: #f0f2f1;
-    font-family: 'Open Sans', sans-serif;
+    background: #00FFFF;
+    font-family: 'Impact', sans-serif;
 }
 
 a{
@@ -33,10 +33,10 @@ a{
 }
 
 .container_card:hover figure{
-    -webkit-transform: perspective(600px) rotateY(180deg);
-    -ms-transform: perspective(600px) rotateY(180deg);
-    -o-transform: perspective(600px) rotateY(180deg);
-    transform: perspective(600px) rotateY(180deg);
+    -webkit-transform: perspective(200px) rotateX(180deg);
+    -ms-transform: perspective(200px) rotateX(180deg);
+    -o-transform: perspective(200px) rotateX(1800deg);
+    transform: perspective(200px) rotateX(180deg);
 
 
     -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
@@ -46,11 +46,11 @@ a{
 
 figure{
     width: 300px;
-    height: 350px;
+    height: 300px;
     position: relative;
-    transition: all ease .5s;
+    transition: all ease 0.5s;
     transform-style: preserve-3d;
-    transform: perspective(600px) rotateY(0deg);
+    transform: perspective(200px) rotateX(0deg);
 }
 
 figure .front,
@@ -69,7 +69,7 @@ figure .back{
     position: absolute;
     top: 0;
     padding: 20px;
-    color: #fff;
+    color: #0000FF;
     transform: perspective(600px) rotateY(180deg);
     backface-visibility: hidden;
     overflow: auto;

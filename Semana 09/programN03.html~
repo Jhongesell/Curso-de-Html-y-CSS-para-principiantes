@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PROGRAM N03</title>
+  </head>
+  <body>
+    <script>
+      var name = "Luz",
+      edad = 43;
+
+      if (edad >= 18 || name == "Luz") {
+      document.write("Bienvenida, gracias por llegar"); }
+      else {document.write("Disculpa, no puedes ingresar");}
+    </script>
+  </body>
+</html>

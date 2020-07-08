@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+      width: 150px;
+      height: 150px;
+      background-color: red;
+      animation-name: ejemplo;
+      animation-duration:5s;
+      }
+
+      @keyframe ejemplo {
+      from {background-color: red;}
+      to {background-color:yellow;}
+      }
+    </style>
+  </head>
+  <body>
+    <p><b>Nota 01:</b> Este es mi ejemplo en mi navegador Firefox.</p>
+    <div></div>
+    <p><b>Nota 02:</b> Cuando pongas el mouse se debe animar lo que has creado con el keyframe 'ejemplo'.</p>
+  </body>
+</html>
