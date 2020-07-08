@@ -1,3 +1,5 @@
 \babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Operaciones B\IeC {\'a}sicas}{3}{0}{1}
-\beamer@sectionintoc {2}{Referencias}{27}{1}{2}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@sectionintoc {2}{Operaciones B\IeC {\'a}sicas}{14}{0}{2}
+\beamer@sectionintoc {3}{POO}{18}{0}{3}
+\beamer@sectionintoc {4}{Referencias}{26}{1}{4}

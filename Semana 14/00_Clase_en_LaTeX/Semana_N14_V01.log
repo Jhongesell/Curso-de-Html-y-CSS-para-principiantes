@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.20)  8 JUL 2020 05:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.20)  8 JUL 2020 06:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1300,7 +1300,7 @@ line 43.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<logo_tls_web1.png, id=52, 311.1625pt x 223.83624pt>
+<logo_tls_web1.png, id=61, 311.1625pt x 223.83624pt>
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
 Package pdftex.def Info: logo_tls_web1.png  used on input line 43.
@@ -1325,19 +1325,125 @@ LaTeX Info: Redefining \% on input line 1.
 )
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 49.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 47.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [3
 
-] (./Section_Files/Sec2.tex
+] (./Section_Files/Sec1.tex
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 7.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 5.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
 [4
 
 ]
-<Section_Files/images/Sec02/01.png, id=294, 388.45125pt x 447.6725pt>
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 12.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [5
+
+]
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 18.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [6
+
+]
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 24.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [7
+
+]
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 32.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [8
+
+]
+<Section_Files/images/Sec01/01.png, id=521, 460.72125pt x 327.2225pt>
+File: Section_Files/images/Sec01/01.png Graphic file (type png)
+<use Section_Files/images/Sec01/01.png>
+Package pdftex.def Info: Section_Files/images/Sec01/01.png  used on input line 
+43.
+(pdftex.def)             Requested size: 230.36006pt x 163.61084pt.
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 43.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [9
+
+ <./Section_Files/images/Sec01/01.png>]
+<Section_Files/images/Sec01/02.png, id=574, 465.74pt x 343.2825pt>
+File: Section_Files/images/Sec01/02.png Graphic file (type png)
+<use Section_Files/images/Sec01/02.png>
+Package pdftex.def Info: Section_Files/images/Sec01/02.png  used on input line 
+54.
+(pdftex.def)             Requested size: 232.86943pt x 171.64082pt.
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 54.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [10
+
+ <./Section_Files/images/Sec01/02.png>]
+<Section_Files/images/Sec01/03.png, id=628, 189.70876pt x 47.17625pt>
+File: Section_Files/images/Sec01/03.png Graphic file (type png)
+<use Section_Files/images/Sec01/03.png>
+Package pdftex.def Info: Section_Files/images/Sec01/03.png  used on input line 
+66.
+(pdftex.def)             Requested size: 94.85414pt x 23.58806pt.
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 66.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [11
+
+ <./Section_Files/images/Sec01/03.png>]
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 76.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [12
+
+]
+<Section_Files/images/Sec01/04.png, id=734, 166.6225pt x 40.15pt>
+File: Section_Files/images/Sec01/04.png Graphic file (type png)
+<use Section_Files/images/Sec01/04.png>
+Package pdftex.def Info: Section_Files/images/Sec01/04.png  used on input line 
+90.
+(pdftex.def)             Requested size: 83.31104pt x 20.07494pt.
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 90.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+
+[13
+
+ <./Section_Files/images/Sec01/04.png>]) (./Semana_N14_V01.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 49.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [14
+
+]
+(./Section_Files/Sec2.tex
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 7.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [15
+
+]
+<Section_Files/images/Sec02/01.png, id=897, 388.45125pt x 447.6725pt>
 File: Section_Files/images/Sec02/01.png Graphic file (type png)
 <use Section_Files/images/Sec02/01.png>
 Package pdftex.def Info: Section_Files/images/Sec02/01.png  used on input line 
@@ -1347,10 +1453,10 @@ File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
 Package pdftex.def Info: logo_tls_web1.png  used on input line 19.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [5
+ [16
 
  <./Section_Files/images/Sec02/01.png>]
-<Section_Files/images/Sec02/02.png, id=346, 417.56pt x 217.81375pt>
+<Section_Files/images/Sec02/02.png, id=950, 417.56pt x 217.81375pt>
 File: Section_Files/images/Sec02/02.png Graphic file (type png)
 <use Section_Files/images/Sec02/02.png>
 Package pdftex.def Info: Section_Files/images/Sec02/02.png  used on input line 
@@ -1360,148 +1466,75 @@ File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
 Package pdftex.def Info: logo_tls_web1.png  used on input line 31.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [6
 
- <./Section_Files/images/Sec02/02.png>]
+[17
+
+ <./Section_Files/images/Sec02/02.png>]) (./Semana_N14_V01.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 39.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [7
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 47.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [8
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 55.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [9
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 63.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [10
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 71.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [11
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 79.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [12
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 87.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [13
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 95.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [14
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 104.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [15
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 112.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [16
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 120.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [17
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 128.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 53.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [18
 
 ]
+(./Section_Files/Sec4.tex
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 136.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 6.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [19
 
 ]
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 144.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 17.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [20
 
 ]
+<Section_Files/images/Sec04/01.png, id=1165, 379.4175pt x 138.5175pt>
+File: Section_Files/images/Sec04/01.png Graphic file (type png)
+<use Section_Files/images/Sec04/01.png>
+Package pdftex.def Info: Section_Files/images/Sec04/01.png  used on input line 
+31.
+(pdftex.def)             Requested size: 113.82613pt x 41.55556pt.
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 152.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 31.
+(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
+ [21
+
+ <./Section_Files/images/Sec04/01.png>]
+File: logo_tls_web1.png Graphic file (type png)
+<use logo_tls_web1.png>
+Package pdftex.def Info: logo_tls_web1.png  used on input line 40.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
 
-[21
+[22
 
 ]
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 160.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [22
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 168.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 48.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [23
 
 ]
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 176.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 56.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [24
 
 ]
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 184.
+Package pdftex.def Info: logo_tls_web1.png  used on input line 64.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
  [25
-
-]
-File: logo_tls_web1.png Graphic file (type png)
-<use logo_tls_web1.png>
-Package pdftex.def Info: logo_tls_web1.png  used on input line 192.
-(pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [26
 
 ]) (./Semana_N14_V01.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -1511,21 +1544,21 @@ File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
 Package pdftex.def Info: logo_tls_web1.png  used on input line 62.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [27
+ [26
 
 ]
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
 Package pdftex.def Info: logo_tls_web1.png  used on input line 75.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [28
+ [27
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonbook.pdf>]
 File: logo_tls_web1.png Graphic file (type png)
 <use logo_tls_web1.png>
 Package pdftex.def Info: logo_tls_web1.png  used on input line 87.
 (pdftex.def)             Requested size: 15.55904pt x 11.19246pt.
- [29
+ [28
 
 ]
 \tf@nav=\write6
@@ -1546,23 +1579,23 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `Semana_N14_V01.out' has not changed.
-(rerunfilecheck)             Checksum: B585612DB9F45EAA8833AC5ACE10260C;155.
+(rerunfilecheck)             Checksum: 31D5E0285CDC4D5161A39A62CBFD70A3;243.
  ) 
 Here is how much of TeX's memory you used:
- 19933 strings out of 492982
- 367622 string characters out of 6134896
- 558837 words of memory out of 5000000
- 22963 multiletter control sequences out of 15000+600000
+ 19993 strings out of 492982
+ 369167 string characters out of 6134896
+ 564335 words of memory out of 5000000
+ 23009 multiletter control sequences out of 15000+600000
  10425 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,59p,842b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,59p,1167b,766s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on Semana_N14_V01.pdf (29 pages, 195378 bytes).
+Output written on Semana_N14_V01.pdf (28 pages, 278505 bytes).
 PDF statistics:
- 1562 PDF objects out of 1728 (max. 8388607)
- 1475 compressed objects within 15 object streams
+ 1559 PDF objects out of 1728 (max. 8388607)
+ 1467 compressed objects within 15 object streams
  64 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
