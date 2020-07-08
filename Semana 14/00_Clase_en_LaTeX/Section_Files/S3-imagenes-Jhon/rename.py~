@@ -1,0 +1,7 @@
+import os
+for nameinit in os.listdir("."):
+    if nameinit[-4:]==".png":
+        nombre=nameinit[0:-4:]
+        newname=""
+        newname='0'+nombre+'.png'
+        os.rename(contador,newname)
