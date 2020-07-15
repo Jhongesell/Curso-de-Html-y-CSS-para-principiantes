@@ -1,0 +1,92 @@
+\documentclass[8pt]{beamer}
+\input{FrontMatter/preamble.tex}
+\usepackage[spanish]{babel}
+\usetheme{Berlin}
+%\usetheme{Copenhagen}
+%\usetheme{Pittsburgh}
+%\usetheme{Singapore}
+\usecolortheme{dolphin}
+%\usecolortheme{seahorse}
+\usepackage{listings}
+
+\newcommand{\celda}[1]{
+\begin{minipage}{2.5cm}
+\vspace{5mm}
+#1
+\vspace{5mm}
+\end{minipage}
+}
+
+
+
+\author[Jhon]{Jhon Gesell Villanueva Portella\inst{1}}
+\title[Fundamentos de Programación I]{JavaScript}
+\date{15 de julio de 2020} 
+\subtitle{Introducción y sintáxis básica Canvas, página web de Rectángulos}
+\logo{\includegraphics[scale=0.05]{logo_tls_web1.png}}
+\institute[TLS]{
+\inst{1}
+Tolouse Lautrec. \\Diseño. \\Diseño y Desarrollo para Medios Digitales.\\
+\vspace{2mm}
+
+}
+\AtBeginSection[]
+{
+\begin{frame}<beamer>{Contenido}
+\tableofcontents[currentsection,currentsubsection]
+\end{frame}
+}
+
+
+\begin{document}
+\begin{frame}
+\maketitle
+\end{frame}
+\begin{frame}{Contenido}
+\tableofcontents
+\end{frame}
+\section{Introducción}
+\input{Section_Files/Sec1.tex}
+\section{Página web de Rectángulos}
+\input{Section_Files/Sec2.tex}
+%\section{Controles}
+%\input{Section_Files/Sec3.tex}
+%\section{POO}
+%\input{Section_Files/Sec4.tex}
+%\section{Canvas}
+%\input{Section_Files/Sec5.tex}
+
+%********************
+
+
+\appendix
+\section{Referencias}
+
+\begin{frame}{Referencias}
+\begin{thebibliography}{8}
+
+
+
+\beamertemplatebookbibitems
+\bibitem{Author00}
+Web Programming with html5, css, and javascript
+\newblock{\em Dean, John}.
+\newblock{Jones \& Bartlett Learning (2019)}
+
+
+\end{thebibliography}
+\end{frame}
+
+\begin{frame}{Referencias}
+\begin{thebibliography}{8}
+\beamertemplatebookbibitems
+
+\bibitem{Author01}
+Learn to Code HTML and CSS: Develop and Style Websites
+\newblock{\em Howe, Shay}.
+\newblock{New Riders, 2014}
+
+\end{thebibliography}
+\end{frame}
+
+\end{document}

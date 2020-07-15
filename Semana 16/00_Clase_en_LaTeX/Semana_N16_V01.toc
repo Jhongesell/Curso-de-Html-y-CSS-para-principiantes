@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@sectionintoc {2}{P\IeC {\'a}gina web de Rect\IeC {\'a}ngulos}{9}{0}{2}
+\beamer@sectionintoc {3}{Referencias}{22}{1}{3}
